@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<ScrollView
+
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:id="@+id/scroll1">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorAccent"
+        android:fontFamily="@font/acme"
+        android:gravity="center_horizontal"
+        android:padding="20dp"
+        android:text="Kamus Organ Tubuh"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="60px" />
+
+    <TextView
+        android:id="@+id/Darah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30px"
+        android:layout_marginTop="2dp"
+        android:text="Darah"
+        android:fontFamily="@font/acme"
+        android:textColor="@color/black"
+        android:textSize="50px"
+        />
+    <TextView
+        android:id="@+id/Esofagus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30px"
+        android:layout_marginTop="2dp"
+        android:text="Esofagus"
+        android:fontFamily="@font/acme"
+        android:textColor="@color/black"
+        android:textSize="50px"
+        />
+    <TextView
+        android:id="@+id/Jantung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30px"
+        android:layout_marginTop="2dp"
+        android:text="Jantung"
+        android:fontFamily="@font/acme"
+        android:textColor="@color/black"
+        android:textSize="50px"
+        />
+    <TextView
+        android:id="@+id/kelenjar_getang_bening"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30px"
+        android:layout_marginTop="2dp"
+        android:text="Kelenjar Getah Bening"
+        android:fontFamily="@font/acme"
+        android:textColor="@color/black"
+        android:textSize="50px"
+        />
+    <TextView
+        android:id="@+id/mata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30px"
+        android:layout_marginTop="2dp"
+        android:text="Mata"
+        android:fontFamily="@font/acme"
+        android:textColor="@color/black"
+        android:textSize="50px"
+        />
+    <TextView
+        android:id="@+id/Otak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30px"
+        android:layout_marginTop="2dp"
+        android:text="Otak"
+        android:fontFamily="@font/acme"
+        android:textColor="@color/black"
+        android:textSize="50px"
+        />
+
+    <TextView
+        android:id="@+id/payudara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30px"
+        android:layout_marginTop="2dp"
+        android:text="Payudara"
+        android:fontFamily="@font/acme"
+        android:textColor="@color/black"
+        android:textSize="50px"
+        />
+
+
+
+</LinearLayout>
+</ScrollView>
+
+</RelativeLayout>
